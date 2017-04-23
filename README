@@ -1,0 +1,9 @@
+pull.sh - Bash script for pulling sgf files off KGS
+pygo.py - Python program with two main uses:
+            1. Replaying an sgf on a terminal
+            2. Looking through an sgf for a given pattern
+                (Edit sgflib/Pattern.py to add new patterns)
+record.sh - Bash script to automate running pygo.py on a bunch of sgf files
+analyze.py - Helper script to go along with record.sh
+
+sgflib/ - Directory of python modules to support pygo.py
